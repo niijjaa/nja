@@ -1,4 +1,4 @@
-package com.example;
+package com.njatest;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
@@ -11,6 +11,8 @@ import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.api.events.ChatMessage;
+
 
 @Slf4j
 @PluginDescriptor(
